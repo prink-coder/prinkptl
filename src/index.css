@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+}
+
+/* .parent{
+    margin: 20px;
+    height: 120px;
+    width: 1000px;
+    padding: 20px 30px;
+    border: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.card{
+    font-size: medium;
+    color: aliceblue;
+} */
+
+/* .parent1{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1{
+   width: 300px;
+   border: 1px solid rgb(17, 17, 17);
+   color: azure;
+   padding: 20px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: black;
+}
+.card1 p{
+    margin: 20px 0;
+}
+.card1 button{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.card1 img{
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card1 button{
+    cursor: pointer;
+    counter-increment: initial;
+} */
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    padding: 20px 20px;
+    margin: 20px 30px;
+    border-radius: 20px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    margin: 20px;
+}
+
+.top img {
+    height: 60px;
+    width: 80px;
+    border-radius: 20%;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+.top button{
+    font-size: medium;
+    background-color: black;
+    color: aliceblue;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 0%;
+}
+
+.gap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gap h3{
+    font-size: 22px;
+    align-items: normal;
+}
+
+.center{
+    margin: 20px;
+    margin-top: 35px;  
+}
+.center h2{
+    white-space: nowrap;
+    font-size: 22px;
+}
+.center span{
+    margin-right: 40px;
+    white-space: nowrap;
+}
+
+.tag{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 10px;
+    gap: 20%;
+}
+.tag h4{
+    background-color: gray;
+    gap: 0%;
+}
+
+.bottom{
+     margin: 20px;
+    gap: 15px;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top: 1px solid gray; */
+
+}
+
+.bottom p{
+    font-size: small;
+    color: gray;
+}
+
+.bottom button{
+    font-size: medium;
+    background-color: black;
+    color: aliceblue;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+
+
+
